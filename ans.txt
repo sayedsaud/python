@@ -1,0 +1,376 @@
+1. Polymorphism is when a subclass can modify the behavior of its superclass.
+
+A. False
+
+B. True
+
+C. Depends on the contents of the class
+
+D. This is an invalid question
+false
+
+2.Select the incorrect statement.
+
+You can pass positional arguments in any order.
+
+You can pass keyword arguments in any order.
+
+You can call a function with positional and keyword arguments.
+
+Positional arguments must be before keyword arguments in a function call.
+
+The incorrect statement is: "You can pass positional arguments in any order."
+
+3.Which of the following is not a keyword?
+
+eval
+
+assert
+
+nonlocal
+
+pass
+
+"eval" is not a keyword.
+
+4. What is the order of precedence in python?
+
+1) Parentheses
+
+ii) Exponential
+
+iii) Multiplication
+
+iv) Division
+
+v) Addition
+
+vi) Subtraction
+
+ So, the order with your given operations is:
+
+i) Parentheses ( )
+ii) Exponential (**)
+iii) Multiplication (*)
+iv) Division (/)
+v) Addition (+)
+vi) Subtraction (-)
+
+5. Which operator is overloaded by the or() function?
+
+A. ||
+
+B.|
+
+C. //
+
+D. /
+
+B. |
+
+6. s1= {1, 2, 3}
+
+s1.issubset(s1)
+
+What is the output of above code?
+
+True
+
+False
+
+Error
+
+No output
+
+ True
+
+7. What is the output of the following? for i in range(float('inf')):
+
+print(i)
+
+0.0 0.1 0.2 0.3...
+
+0 1 2 3...
+
+0.0 1.0 2.0 3.0...
+
+none of the mentioned
+
+ none of the mentioned
+
+
+8. To open a file c:\file.txt for appending data, we use
+
+outfile = open("c:\\file.txt", "a")
+
+outfile = open("c:\\file.txt", "w")
+
+outfile = open(file = "c:\file.txt", "w")
+
+outfile = open(file = "crwfile.txt", "w")
+
+ outfile = open("c:\\file.txt", "a")
+
+9. a = [1, 5, 7, 9, 9, 1]
+b = a[0] 
+x = 0 
+for x in range(1, len(a)): 
+    if a[x] > b: 
+        b = a[x] 
+        b = x
+
+print(b)
+
+ 4
+
+10. string = "my name is x" for i in''.join(string.split()):
+
+print (i, end=", ")
+
+
+What will be the output of above Python code snippet?
+
+m. y.. n, a, m, e,, i, s., x,
+
+m. y., n, a, m, e, i, s,, x
+
+my, name, is, x,
+
+error
+
+ m, y, n, a, m, e, i, s, x,
+ m, y., n, a, m, e, i, s,, x
+
+11. a = {}
+a[2] = 1
+a[1] = [2, 3, 4]
+print(a[1][1])
+Therefore, the output of the code is: 3
+
+12. Is the following Python code valid?
+
+try:
+
+# Do something
+
+except:
+
+# Do something
+
+finally:
+
+# Do something
+
+no, there is no such thing as finally
+
+no, finally cannot be used with except
+
+no, finally must come before except
+
+yes
+
+no, finally cannot be used with except
+
+13.How many except statements can a try-except block have?
+
+A. zero
+
+B. one
+
+C. more than one
+
+D. more than zero
+
+  more than zero
+14. Which of the following is incorrect?
+
+float('inf)
+
+float('nan')
+
+float('56'+'78')
+
+float('12+34)
+ 
+float('12+34')
+
+15. Can one block of except statements handle multiple exception?
+
+A yes, like except typeerror, syntaxerror ()
+
+B. yes, like except (typeetron, syntaxerror)
+
+C. no
+
+D. none of the mentioned
+
+yes, like except typeerror, syntaxerror ()
+
+16. Try:
+
+# do something
+
+Except:
+
+# do something
+
+Else
+
+# do something
+
+
+Is the above python code valid?
+
+A. no, there is no such thing as else
+
+B. no, else cannot be used with except
+
+C. no, else must come before except
+
+D. Yes
+
+ D. Yes
+
+17. When will the else part of try-except-else be executed?
+
+A. always
+
+B. when an exception occurs
+
+C. when no exception occurs
+
+D. when an exception occurs in to except block
+
+ C. when no exception occurs
+
+18. What will be the output of the following Python code snippet:
+
+['hello', 'morning'][bool(")]
+
+error
+
+no output
+
+hello
+
+morning
+ hello
+19. What is the use of seek() method in files?
+
+sets the file's current position at the offset
+
+sets the file's previous position at the offset
+
+sets the file's current position within the file
+
+none of the mentioned
+
+ sets the file's current position at the offset
+
+20. What will be the output of the following Python code?
+
+for i in range(int(2.0)):
+
+print(i)
+
+0.0 1.0
+
+01
+
+error
+
+none of the mentioned
+ 01
+
+21. What is the output of the following? d = {0: 'a', 1: 'b', 2: 'c'} for x in d.keys():
+
+print(d[x])
+
+012
+
+abc
+
+0a1b2c
+
+none of the mentioned
+
+abc
+
+22. What is the output of the following?
+
+x = 'abcd'
+
+for i in x:
+
+print(i.upper())
+
+abcd
+
+ABCD
+
+aBCD
+
+error
+
+ ABCD
+
+23. We can analyze the data in pandas with:
+
+Series
+
+DataFrame
+
+Both of the above
+
+None of the above
+
+ Both of the above
+
+
+24. a,b=1,0
+
+a-ab
+
+b=a*b
+
+a-a'b
+
+print(a)
+
+
+What is the output of this code?
+
+A0
+
+B.1
+
+C2
+
+D. This code will raise a runtime error
+
+ A. 0
+
+25.Suppose you have two sets s1 = (1, 2, 3) and s2 = (3, 4, 5). Which of the following statements not give us their union?
+
+A. s1.union(13, 4, 5))
+
+B.s1 | [3.4.5)
+
+C.s1(3,4,5]
+
+D. si union(set([3, 4, 5]))
+
+ C. s1 | [3, 4, 5]
+
+26.scores = {'Ayush': 97, 'Megha': 98}
+
+if scores['Ayush'] > 97:
+    print('scholar')
+elif scores['Megha'] > 97:
+    print('topper')
+elif scores('Melane') > 97:
+    print('teacher')
+else:
+    print('nobody topped')
+
+ topper
